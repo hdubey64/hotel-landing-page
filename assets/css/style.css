@@ -1,0 +1,26 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: 0;
+   scroll-behavior: smooth;
+}
+body {
+   font-family: "Poppins", sans-serif;
+}
+
+section {
+   margin: 25px 0;
+   padding: 25px 20px;
+}
+footer {
+   margin: 25px 0;
+   padding: 25px 20px;
+}
+.content {
+   padding: 30px;
+}
+.section-title {
+   font-size: 1.2rem;
+   color: white;
+   font-weight: 300;
+}

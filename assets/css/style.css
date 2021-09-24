@@ -6,7 +6,9 @@
 }
 body {
    font-family: "Poppins", sans-serif;
-   background-image: url(/assets/images/background.png);
+
+   background-image: url(/assets/images/Image\ 5.png);
+
    object-fit: cover;
    background-size: cover;
    background-position: center center;
@@ -15,8 +17,20 @@ body {
 }
 
 section {
-   margin: 25px 0;
-   padding: 25px 20px;
+   margin: 20px 0;
+   padding: 20px 20px;
+}
+.contant {
+   padding: 15px;
+}
+.section-title h1 {
+   color: white;
+   font-size: 1.5rem;
+   font-weight: 300;
+}
+.glass {
+   background: rgba(0, 0, 0, 0.5);
+   padding: 20px;
 }
 header {
    backdrop-filter: blur(8px);
@@ -90,15 +104,172 @@ nav {
    margin: 5px;
    transition: all 0.3s ease;
 }
+.clock {
+   /* top: 60%;
+   left: 18%; */
+   /* transform: translateX(30%) translateY(-20%); */
+   color: white;
+   font-size: 1.7rem;
+   /* font-family: orbitron; */
+   font-weight: 700;
+   letter-spacing: 1px;
+}
+.watch {
+   display: flex;
+   flex-direction: row;
+}
+.watch h1 {
+   font-size: 1.4rem;
+   color: white;
+   font-weight: 300;
+   margin-right: 10px;
+}
+.glass {
+   width: 60%;
+   border-radius: 10px;
+}
+.contant > h1 {
+   font-size: 4rem;
+   color: white;
+   font-weight: 600;
+}
+.contant > p {
+   font-size: 1.3rem;
+   color: white;
+   font-weight: 300;
+}
+.contant3 {
+   padding: 25px;
+   display: flex;
+   justify-content: center;
+}
+.contant4 {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-bottom: 0 !important;
+}
+.ticket {
+   background-color: white;
+   width: 20%;
+   height: 2px;
+}
+.contant3 p {
+   display: flex;
+   justify-content: center;
+   font-weight: 300;
+   color: white;
+   margin-top: 0;
+}
+
+.contant4 h1 {
+   text-align: center;
+   font-size: 1.2rem;
+   color: white;
+   margin-left: 5px;
+   margin-right: 5px;
+}
+.glass1 {
+   background: rgba(0, 0, 0, 0.6);
+   padding: 30px;
+   width: 70%;
+   border-radius: 20px;
+   text-align: center;
+}
+.glass1 > div {
+   margin: 25px auto;
+}
+.bottom-border1 {
+   display: flex;
+   border-bottom: 3px solid white;
+   position: relative;
+   padding-bottom: 5px;
+}
+.in-out {
+   display: flex;
+   justify-content: space-between;
+}
+.check {
+   color: white !important;
+   margin-top: -10px;
+}
+.comfart {
+   display: flex;
+   justify-content: space-between;
+}
+
+::-webkit-calendar-picker-indicator {
+   filter: invert(1);
+}
+
+/* ::-webkit-calendar-picker-indicator {
+   background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 24 24"><path fill="%23bbbbbb" d="M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 18H4V8h16v13z"/></svg>');
+} */
+
+option {
+   background: rgba(0, 0, 0, 0.9);
+   color: #fff;
+
+   border-color: #000;
+   backdrop-filter: blur(100px);
+}
+option:hover {
+   background: #fff;
+   color: #000;
+}
+
+select.decorated option:hover {
+   box-shadow: 0 0 10px 100px #000000 inset !important;
+}
+.submit {
+   background-color: #017d9e;
+   padding: 10px 35px;
+   color: white;
+   border: 1px solid #017d9e;
+   border-radius: 5px;
+   margin-top: 15px;
+}
+/* external css: flickity.css */
+
+* {
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: sans-serif;
+}
+
+.gallery {
+   background: #eee;
+}
+
+.gallery-cell {
+   width: 66%;
+   height: 200px;
+   margin-right: 10px;
+   background: #8c8;
+   counter-increment: gallery-cell;
+}
+
+/* cell number */
+.gallery-cell:before {
+   display: block;
+   text-align: center;
+   content: counter(gallery-cell);
+   line-height: 200px;
+   font-size: 80px;
+   color: white;
+}
 
 @media screen and (max-width: 993px) {
    .nav-links {
-      background-color: #00091c;
+      background-color: #010203;
 
       position: absolute;
       left: 0px;
       height: 50vh;
-      top: 9.9vh;
+      top: 10vh;
       display: flex;
       flex-direction: column;
 
@@ -116,17 +287,6 @@ nav {
    }
    .fas {
       position: relative;
-   }
-
-   .icon {
-      position: relative;
-      padding-left: -100px;
-   }
-   .glass {
-      width: 100%;
-   }
-   .content2 {
-      padding: 40px 10px;
    }
 }
 
